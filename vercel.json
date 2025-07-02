@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/ocr.py": {
+    "main.py": {
       "runtime": "vercel-python@0.5.0"
     }
   }
