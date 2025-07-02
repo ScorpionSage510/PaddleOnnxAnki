@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-@app.route('/ocr', methods=['POST'])
+@app.route('/', methods=['POST'])
 def ocr():
     return jsonify({"message": "Hello from OCR"})
 
